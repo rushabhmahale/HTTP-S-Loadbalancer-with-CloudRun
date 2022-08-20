@@ -104,6 +104,10 @@ sudo docker tag rushabh-cloudrun-1:v1 gcr.io/gcp-xxx-xxxx/rushabh-cloudrun-1:v1
 ```
 - ![image](https://user-images.githubusercontent.com/63963025/185731147-5ef66878-7712-4cc3-aa57-843eeefd926f.png)
 
+- Now push image to Google Container Registry 
+```
+
+```
 
 
 
