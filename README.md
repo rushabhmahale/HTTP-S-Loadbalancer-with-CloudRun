@@ -7,6 +7,10 @@ Elastic Load Balancing automatically distributes your incoming traffic across mu
 
 Reffer this doc:- https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/
 
+## Architecture diagram:
+
+![lb-cloudrun drawio (1)](https://user-images.githubusercontent.com/63963025/185799343-e9a1abc8-661b-4456-9acc-c96014a9465b.png)
+
 
 ## What is Cloud Run
 Cloud Run is a managed compute platform that lets you run containers directly on top of Google's scalable infrastructure.
@@ -87,6 +91,11 @@ sudo docker build -t rushabh-cloudrun-2:v2 .
 - ![image](https://user-images.githubusercontent.com/63963025/185730837-95ce7f59-3006-48fb-8be6-f12fb36c5708.png)
 
 ## Step 3 Push Docker image to GCR (Google Container Registry)
+
+## Why we use private registry 
+A private Docker registry allows you to share your custom base images within your organization, keeping a consistent, private, and centralized source of truth for the building blocks of your architecture.
+
+Reffer this doc:- https://cloud.google.com/container-registry
 
 - This command will login to GCR 
 ```
